@@ -80,8 +80,6 @@ autofarmBtn.MouseButton1Click:Connect(function()
     autofarmBtn.Text = "Auto Farm : " .. (autofarm and "ON" or "OFF")
     spawn(function()
         while autofarm do
-            -- Aquí va tu código para agarrar coins/brainrots automáticamente
-            -- Por ejemplo: recorrer el mapa y tocar items
             wait(0.5)
         end
     end)
